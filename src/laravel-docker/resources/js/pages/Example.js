@@ -12,9 +12,7 @@ function Example() {
                             React導入できたわな？？
                         </div>
 
-                        <div className="card-body">
-                            I'm an example component!
-                        </div>
+                        <div className="card-body">pages下に移動出来た？？</div>
                         <Button color="secondary" variant="contained">
                             MATERIAL-UI BUTTON
                         </Button>
