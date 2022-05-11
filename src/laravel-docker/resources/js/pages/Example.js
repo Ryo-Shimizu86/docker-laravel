@@ -14,7 +14,7 @@ function Example() {
 
                         <div className="card-body">pages下に移動出来た？？</div>
                         <Button color="secondary" variant="contained">
-                            MATERIAL-UI BUTTON
+                            Homeに遷移ボタン
                         </Button>
                     </div>
                 </div>
@@ -24,7 +24,3 @@ function Example() {
 }
 
 export default Example;
-
-if (document.getElementById("app")) {
-    ReactDOM.render(<Example />, document.getElementById("app"));
-}
