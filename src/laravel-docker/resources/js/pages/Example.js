@@ -13,7 +13,7 @@ function Example() {
                         </div>
 
                         <div className="card-body">pages下に移動出来た？？</div>
-                        <Button color="secondary" variant="contained">
+                        <Button color="secondary" variant="contained" href="/">
                             Homeに遷移ボタン
                         </Button>
                     </div>
