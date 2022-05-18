@@ -87,7 +87,12 @@ function Home() {
             name: post.name,
             content: post.content,
             editBtn: (
-                <Button color="secondary" variant="contained">
+                <Button
+                    color="secondary"
+                    variant="contained"
+                    key={post.id}
+                    href={`/post/edit/${post.id}`}
+                >
                     編集
                 </Button>
             ),
